@@ -1,0 +1,7 @@
+name = "blog"
+compatibility_date = "2025-12-16"
+compatibility_flags = ["nodejs_compat"] # 兼容 Node.js 模块（如 sharp、pagefind）
+
+[assets]
+directory = "./dist"
+bypass_cache = false # 启用 CDN 缓存（静态站点推荐）
