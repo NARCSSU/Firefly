@@ -20,11 +20,11 @@ export const friendsPageConfig: FriendsPageConfig = {
 // 友链配置
 export const friendsConfig: FriendLink[] = [
 	{
-		title: "夏夜流萤",
-		imgurl: "https://q1.qlogo.cn/g?b=qq&nk=7618557&s=640",
-		desc: "飞萤之火自无梦的长夜亮起，绽放在终竟的明天。",
-		siteurl: "https://blog.cuteleaf.cn",
-		tags: ["Blog"],
+		title: "NaT_Jerry",
+		imgurl: "https://q1.qlogo.cn/g?b=qq&nk=1638465997&s=640",
+		desc: "请给我钱",
+		siteurl: "https://github.com/NatJerry",
+		tags: ["Github"],
 		weight: 10, // 权重，数字越大排序越靠前
 		enabled: true, // 是否启用
 	},
@@ -35,7 +35,7 @@ export const friendsConfig: FriendLink[] = [
 		siteurl: "https://docs-firefly.cuteleaf.cn",
 		tags: ["Docs"],
 		weight: 9,
-		enabled: true,
+		enabled: false,
 	},
 	{
 		title: "Astro",
@@ -44,6 +44,24 @@ export const friendsConfig: FriendLink[] = [
 		siteurl: "https://github.com/withastro/astro",
 		tags: ["Framework"],
 		weight: 8,
+		enabled: false,
+	},
+	{
+		title: "LuminolMC",
+		imgurl: "https://avatars.githubusercontent.com/u/152063829??v=4&s=640",
+		desc: "Lighten everything with passion",
+		siteurl: "https://github.com/LuminolMC",
+		tags: ["Framework"],
+		weight: 7,
+		enabled: true,
+	},
+	{
+		title: "LuminolCraft",
+		imgurl: "https://imagehosting-ez2.pages.dev/images/4483d29a-1797-4817-a73d-2f44ed464a2e.webp",
+		desc: "LuminolCraft, a Minecraft Server built collaboratively with passionate administrators and players.",
+		siteurl: "https://github.com/LuminolCraft",
+		tags: ["Server"],
+		weight: 6,
 		enabled: true,
 	},
 ];
