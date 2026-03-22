@@ -1,13 +1,7 @@
 name = "blog"
 compatibility_date = "2025-12-16"
-compatibility_flags = ["nodejs_compat"]
+compatibility_flags = ["nodejs_compat"] # 兼容 Node.js 模块（如 sharp、pagefind）
 
-# Workers Site 配置（旧版）
-[site]
-bucket = "./dist"
-entry-point = "workers-site"
-
-# 或者新版 Assets 配置
 [assets]
 directory = "./dist"
 bypass_cache = false
