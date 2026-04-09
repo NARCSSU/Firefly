@@ -4,4 +4,4 @@ compatibility_flags = ["nodejs_compat"] # 兼容 Node.js 模块（如 sharp、pa
 
 [assets]
 directory = "./dist"
-bypass_cache = false
+bypass_cache = false # 启用 CDN 缓存（静态站点推荐）
